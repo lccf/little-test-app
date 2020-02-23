@@ -21,7 +21,7 @@
 
 说明：
 
-- 数据使用 data/01/data.json，其中 galleryList 为轮播图片，图片域名为 https://pic.bonwebuy.com/。
+- 数据使用 data.json，其中 galleryList 为轮播图片，图片域名为 https://pic.bonwebuy.com/。
 - saleAttrList字段存储了颜色尺码的图片、名称
 - skuInfo字段存储了sku(单个商品的单个颜色下的单个尺码)对应的库存
 - 选择颜色，如果对应的尺码没有库存，则该尺码不可选（颜色置灰，用虚线框表示）。
@@ -47,6 +47,6 @@
 - 实现编辑功能
 
 说明：
-- 数据使用 data/03/data.json，新增、编辑后的数据使用浏览器本地存储。
+- 数据使用 data.json，新增、编辑后的数据使用浏览器本地存储。
 - 表单实现基本的数据非空校验，校验手机号格式是否正确
 - 省市区实现三级联动控件数据可参考city.json
